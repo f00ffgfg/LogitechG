@@ -1,0 +1,100 @@
+#dd
+{
+    margin-top:10px;
+    width:700px;
+    margin-left:400px;
+    height:3px;
+    background-color:gainsboro;
+}
+#ddd
+{
+    height:566px;
+    width:100%;
+    text-align:center;
+    background: linear-gradient(180deg, #04A5FF, #8D6AF0);
+}
+#dd2
+{
+    margin-top:20px;
+    width:600px;
+    margin-left:457px;
+    height:3px;
+    background-color:rgb(0, 0, 0);
+}
+.txtt
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight:bolder;
+}
+.txttt
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: lighter;
+    margin-top:50px;
+    font-size:30px;
+    text-align:left;
+    margin-left:100px;
+}
+.diver1
+{
+    height:40px;
+    width:236px;
+    margin-left:100px;
+    margin-top:30px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diver2
+{
+    height:40px;
+    width:236px;
+    margin-left:100px;
+    margin-top:10px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divertxt
+{
+    margin-top: 10px;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: bolder;
+    font-size:15px;
+}
+.kartina
+{
+    width: 600px;
+    height: 350px;
+    margin-left:570px;
+    margin-top:-225px;
+}
+.ggf
+{
+    font-family: 'Kodchasan', sans-serif;
+    margin-left:650px;
+    font-size:30px;
+}
+.ggf2
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-size:30px;
+}
+.ggf3
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-size:30px;
+}
+.ggf4
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-size:30px;
+}
+.fut
+{
+    display:flex;
+    justify-content: space-around;
+    margin-left:90px;
+}

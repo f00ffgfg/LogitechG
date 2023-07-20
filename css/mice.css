@@ -1,0 +1,39 @@
+#dd
+{
+    margin-top:10px;
+    width:700px;
+    margin-left:400px;
+    height:3px;
+    background-color:gainsboro;
+}
+#ddd
+{
+    height:566px;
+    width:100%;
+    text-align:center;
+    background: linear-gradient(180deg, #04A5FF, #8D6AF0);
+}
+#dd2
+{
+    margin-top:20px;
+    width:600px;
+    margin-left:457px;
+    height:3px;
+    background-color:rgb(0, 0, 0);
+}
+.txtt
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-weight:bolder;
+}
+.karta
+{
+    width:500px;
+    height:380px;
+}
+.klac
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
