@@ -6,6 +6,15 @@
     height:3px;
     background-color:gainsboro;
 }
+.rod1
+{
+    display: flex;
+}
+.kartinFa
+{
+  margin-left: 70px;
+  margin-top: 20px;
+}
 #ddd
 {
     height:566px;
@@ -26,14 +35,431 @@
     font-family: 'Kodchasan', sans-serif;
     font-weight:bolder;
 }
-.karta
+.txttt
 {
-    width:500px;
-    height:380px;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: lighter;
+    margin-top:50px;
+    font-size:30px;
+    text-align:left;
+    padding-left: 100px;
 }
-.klac
+.diver1
 {
+    height:40px;
+    width:236px;
+    margin-left:100px;
+    margin-top:30px;
+    background-color:white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.diver2
+{
+    height:40px;
+    width:236px;
+    margin-left:100px;
+    margin-top:10px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divertxt
+{
+    margin-top: 10px;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: bolder;
+    font-size:15px;
+}
+.kartina
+{
+    width: 50%;
+    height: 50%;
+    margin-left:570px;
+    margin-top:-225px;
+}
+.ggf
+{
+    font-family: 'Kodchasan', sans-serif;
+    display:flex;
+    justify-content: center;
+    font-size:25px;
+}
+.ggf2
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-size:25px;
+}
+.ggf3
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-size:25px;
+}
+.ggf4
+{
+    font-family: 'Kodchasan', sans-serif;
+    font-size:25px;
+}
+.fut
+{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.karta
+{
+    width:440px;
+    height:330px;
+    margin-top:67px;
+}
+.karta1
+{
+    width:440px;
+    height:330px;
+    margin-top:67px;
+}
+.karta2
+{
+    width:440px;
+    height:330px;
+    margin-top:67px;
+}
+.rodkart
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width:937px) 
+{
+    .txttt
+    {
+        font-size: 25px;
+    } 
+    .kartinFa
+    {
+        width: 300px;
+        height: 200px;
+    }
+    .diver1
+    {
+        height:30px;
+        width:231px;
+    }
+    .diver2
+    {
+        height:30px;
+        width:231px;
+    }
+    .kartinFa
+    {
+        margin-top: 50px;
+    }
+}
+@media (max-width:757px) 
+{
+    .txttt
+    {
+        font-size: 22px;
+    } 
+    .kartinFa
+    {
+        width: 250px;
+        height: 150px;
+    }
+    .diver1
+    {
+        height:25px;
+        width:210px;
+    }
+    .diver2
+    {
+        height:25px;
+        width:210px;
+    }
+    .divertxt
+    {
+        font-size: 13px;
+    }
+    .ggf
+    {
+        font-size: 20px;
+    }
+    .ggf2
+    {
+        font-size: 20px;
+    }
+    .ggf3
+    {
+        font-size: 20px;
+    }
+    .ggf4   
+    {
+        font-size: 20px;
+    }
+    .kartinFa
+    {
+        margin-top: 100px;
+    }
+}
+@media (max-width:652px) 
+{
+   .rod1
+   {
+     flex-direction: column;
+   }
+   .txttt
+   {
+     border: solid 1px;
+   }
+   .kartinFa
+   {
+    margin-top: -5px; 
+   }
+   .diver1
+   {
+    margin: 0 auto;
+    
+   }
+   .diver2
+   {
+    margin: 0 auto;
+    margin-top: 10px;
+   }
+   .fut
+   {
+    flex-direction: column;
+    align-items: center;
+   }
+}
+@media (max-width:408px) 
+{
+   .rod1
+   {
+     flex-direction: column;
+   }
+   .txttt
+   {
+     border: solid 1px;
+     font-size: 19px;
+   }
+   .kartinFa
+   {
+    margin-top: -5px; 
+   }
+   .diver1
+   {
+    margin: 0 auto;
+    
+   }
+   .diver2
+   {
+    margin: 0 auto;
+    margin-top: 10px;
+   }
+   .fut
+   {
+    flex-direction: column;
+    align-items: center;
+   }
+   .ggf
+   {
+    font-size: 18px;
+   }
+   .ggf2
+   {
+    font-size: 18px;
+   }
+   .ggf3
+   {
+    font-size: 18px;
+   }
+   .ggf4
+   {
+    font-size: 18px;
+   }
+
+}
+@media (max-width:1320px)
+{
+    .karta
+    {
+        width:430px;
+        height:310px;
+        margin-top:80px;
+    }
+    .karta1
+    {
+        width:430px;
+        height:310px;
+        margin-top:80px;
+    }
+    .karta2
+    {
+        width:430px;
+        height:310px;
+        margin-top:80px;
+    }
+}
+@media (max-width:1293px)
+{
+    .karta
+    {
+        width:370px;
+        height:250px;
+        margin-top:80px;
+    }
+    .karta1
+    {
+        width:370px;
+        height:250px;
+        margin-top:80px;
+    }
+    .karta2
+    {
+        width:370px;
+        height:250px;
+        margin-top:80px;
+    }
+}
+@media (max-width:1111px)
+{
+    .karta
+    {
+        width:320px;
+        height:200px;
+        margin-top:100px;
+    }
+    .karta1
+    {
+        width:320px;
+        height:200px;
+        margin-top:100px;
+    }
+    .karta2
+    {
+        width:320px;
+        height:200px;
+        margin-top:100px;
+    }
+}
+@media (max-width:961px)
+{
+    .karta
+    {
+        width:270px;
+        height:200px;
+        margin-top:170px;
+    }
+    .karta1
+    {
+        width:270px;
+        height:200px;
+        margin-top:170px;
+    }
+    .karta2
+    {
+        width:270px;
+        height:200px;
+        margin-top:170px;
+    }
+}
+@media (max-width:811px)
+{
+    .karta
+    {
+        width:350px;
+        height:300px;
+        margin-top:-50px;
+    }
+    .karta1
+    {
+        width:350px;
+        height:300px;
+        margin-top:10px;
+    }
+    .karta2
+    {
+        width:350px;
+        height:300px;
+        margin-top:10px;
+    }
+    .rodkart
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #ddd
+    {
+        height:890px;
+        width:100%;
+        text-align:center;
+        background: linear-gradient(180deg, #04A5FF, #8D6AF0);
+    }
+}
+@media (max-width:623px)
+{
+    .karta
+    {
+        width:350px;
+        height:300px;
+        margin-top:-50px;
+    }
+    .karta1
+    {
+        width:350px;
+        height:300px;
+        margin-top:10px;
+    }
+    .karta2
+    {
+        width:350px;
+        height:300px;
+        margin-top:10px;
+    }
+}
+@media (max-width:455px)
+{
+    .karta
+    {
+        width:300px;
+        height:260px;
+        margin-top:-50px;
+    }
+    .karta1
+    {
+        width:300px;
+        height:260px;
+        margin-top:10px;
+    }
+    .karta2
+    {
+        width:300px;
+        height:260px;
+        margin-top:10px;
+    }
+}
+@media (max-width:414px)
+{
+    .karta
+    {
+        width:300px;
+        height:260px;
+        margin-top:-50px;
+    }
+    .karta1
+    {
+        width:300px;
+        height:260px;
+        margin-top:10px;
+    }
+    .karta2
+    {
+        width:300px;
+        height:260px;
+        margin-top:10px;
+    }
 }
